@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; connect-src https://*.workers.dev; base-uri 'none'; form-action 'none'">
+<meta name="referrer" content="no-referrer">
+<title>Cerca giocatore Brawl Stars</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Cerca un giocatore</h1>
+<form id="form">
+  <label for="tag">ID giocatore (es. #2PP)</label><br>
+  <input id="tag" autocomplete="off" autocapitalize="characters" maxlength="13" required>
+  <button id="go">Cerca</button>
+</form>
+<p id="msg" role="status"></p>
+<dl id="out" hidden></dl>
+<p class="note">Sito non ufficiale. Non affiliato a Supercell.</p>
+<script src="app.js"></script>
+</body>
+</html>

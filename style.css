@@ -1,0 +1,11 @@
+body { font-family: system-ui, sans-serif; max-width: 480px; margin: 2rem auto; padding: 0 1rem; background: #0f1b3d; color: #f4f1ea; }
+input, button { font-size: 1.1rem; padding: .6rem; border-radius: 8px; border: 0; }
+input { width: 55%; text-transform: uppercase; }
+button { background: #ff9f1c; color: #0f1b3d; font-weight: 700; cursor: pointer; }
+button:disabled { opacity: .6; cursor: wait; }
+:focus-visible { outline: 3px solid #3dd6d0; outline-offset: 2px; }
+dl { display: grid; grid-template-columns: 1fr auto; gap: .5rem 1rem; background: #1b2a55; padding: 1rem; border-radius: 12px; }
+dt { color: #c9d2ec; }
+dd { margin: 0; font-weight: 700; text-align: right; }
+#msg { color: #ff9f1c; min-height: 1.5em; }
+.note { color: #c9d2ec; font-size: .85rem; }
